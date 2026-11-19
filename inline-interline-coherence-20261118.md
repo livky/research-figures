@@ -80,7 +80,7 @@ t_{1,2}=\sqrt{\frac{2n}{\lambda z}}\,(u\mp u_g),\quad u_g=\frac{\lambda z f_c}{n
    z=100、200、400 nm 时，$r_F$=82、116、164 nm。
    零焦时 $h_0(u)=2f_c\,\mathrm{sinc}(2f_cu)$，第一零点在 71 nm。
 
-![线扩展核 h_z(u)](../outputs/hz_kernel_zones_20261118/K1_kernel.png)
+![线扩展核 h_z(u)](K1_kernel.png)
 
 *图 K1｜精确核（黑 $|h|$、蓝 $\mathrm{Re}\,h$）与傍轴闭式（紫）。绿带为一级 Fresnel 带。离焦越大，阴影越宽、幅度越低、啁啾越密。*
 
@@ -114,7 +114,7 @@ $$\Psi(\xi)=2\pi f_{sx}\xi+\arg h_{z,\sigma_y}(x-\xi)\quad(\text{略去与 }\xi\
 - 上下移：大离焦已验证；z=100 时偏宽，因为弦短、Fresnel 数小，核仍接近 sinc。
 - 左右移：中心位置已验证（偏差约 4–9%）；宽度只有条件支持，三阶项使相长区明显不对称。
 
-![相长区图](../outputs/hz_kernel_zones_20261118/K2_constructive_zone_maps.png)
+![相长区图](K2_constructive_zone_maps.png)
 
 *图 K2｜横轴为掩膜位置 ξ，纵轴为离焦 z（向下增大）。颜色表示每个微元对观察点（洋红点线）的贡献投影到驻相点相位上：红为相长，蓝为相消。*
 *斜线框是透光细条，绿线为解析的 $\xi^*$ 与 $\xi^*\pm r_F$，橙色点划线为镜像对的首次翻转。这里用连续核，只作机制示意。*
@@ -213,7 +213,7 @@ $$\Psi(\xi)=2\pi f_{sx}\xi+\arg h_{z,\sigma_y}(x-\xi)\quad(\text{略去与 }\xi\
 
 前两行已验证。左右移一行有条件支持：模拟的 140 nm 含 Focal 非纯光栅和 ±25 nm 窗口的影响。
 
-![Ewald 截线与弦斜率](../outputs/hz_kernel_zones_20261118/K3_ewald_chords.png)
+![Ewald 截线与弦斜率](K3_ewald_chords.png)
 
 *图 K3｜黑圆为 $k_y=0$ 截线，蓝圆为 $k_y=NA\cdot0.86$ 截线（更弯）。圆点是 0 级，方块是一级。*
 *轴上的弦在圆顶附近，很平；左右移的弦在圆的陡坡上，很陡。橙色点线是源点自身射线的切线（第 4 节实空间估算所用的斜率）。*
@@ -245,7 +245,7 @@ $$\Psi(\xi)=2\pi f_{sx}\xi+\arg h_{z,\sigma_y}(x-\xi)\quad(\text{略去与 }\xi\
 - σx 对与轴上：单个分项还带有别的振荡，在总和中相消。半线的频谱是宽 sinc，单看一部分不具备 400 nm 节距的“只放两级”特性；
   四条细线合在一起，阵列因子才把能量集中到 0、±1 级。（推断，未逐个级次对分解）
 
-![同一 Δk 拟合](../outputs/inline_interline_coherence_20261118/03_same_dk_all_terms.png)
+![同一 Δk 拟合](03_same_dk_all_terms.png)
 
 *图 03｜点为精确分项，线为固定 $\Delta k_z$ 的余弦拟合。*
 
@@ -260,16 +260,16 @@ $$\Psi(\xi)=2\pi f_{sx}\xi+\arg h_{z,\sigma_y}(x-\xi)\quad(\text{略去与 }\xi\
 | 镜像对 σx=±0.86 | 140 nm | 线内（200 nm 时 −0.35） | 线间（+0.10） | 相长区横移 |
 | 标量环形 0.79–0.93 | 200 nm | 线内（200 nm 时 −0.165） | 线间（+0.027） | 以横移为主 |
 
-![微元相量链](../outputs/inline_interline_coherence_20261118/01_phasor_chains.png)
+![微元相量链](01_phasor_chains.png)
 
 *图 01｜每 1 nm 微元的复场首尾相接，黑箭头为合场。链段同向为相长，折回为相消。*
 *第 1、2 行为轴上（间隙、条心），第 3、4 行为 σx=+0.86（间隙、条心）。*
 
-![D2 分项随离焦](../outputs/inline_interline_coherence_20261118/02_inline_interline_vs_z.png)
+![D2 分项随离焦](02_inline_interline_vs_z.png)
 
 *图 02｜各项对 $D_2$ 的贡献，负值推动翻转。绿虚线为三光束（弦斜率）预测。*
 
-![源点图](../outputs/inline_interline_coherence_20261118/04_source_map_z200.png)
+![源点图](04_source_map_z200.png)
 
 *图 04｜镜像源点对在 z=200 nm 的分项（蓝色推动、红色抵抗），黑弧为环形 0.79–0.93。*
 *线内项推动的区域是 σx≳0.4 的整片区域；线间项呈正负交替条带，在环上大体相消。*
